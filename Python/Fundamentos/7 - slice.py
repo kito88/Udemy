@@ -1,4 +1,4 @@
-movieName - "Top Gun"
+movieName = "Top Gun"
 
 #string[inicio:fim] - Indice começa na posição 0 / indice final - 1
 
