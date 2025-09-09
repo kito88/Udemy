@@ -1,20 +1,18 @@
-<<<<<<< HEAD
-"""#lista de Filmes
+#<<<<<<< HEAD
+#lista de Filmes
 movieList = ["titanic", "avatar", "star wars", "matrix", "interestelar"]
 
 # 1 - iterando valores de uma lista de filmes usando While
-=======
+# =====
 #Lista de Filmes
 movieList =  ["Titanic","The Godfather","Inception","Jurassic Park", "Velozes e Furiozos"]
 
 # 1 - Iterando valores de uma Lista de Filmes usando While
->>>>>>> 7dd500ead8f9ec371169106d13d4ba7c3ba79d91
 index = 0
 while index < len(movieList):
     print(movieList[index])
     index += 1
 
-<<<<<<< HEAD
 # 2 - Quando uma iteração for atendida o Loop será encerrado
 index = 0
 while index < len(movieList):
@@ -52,8 +50,7 @@ else:
 
 print(f"Média de Avaliação do Filme {movieName} é: {average:.2f}")
 
-"""
-=======
+
 line = "~~"*20
 print(line)
 
@@ -79,4 +76,3 @@ while index < len(movieList):
         continue;
     print(movieList[index])
     index +=1
->>>>>>> 7dd500ead8f9ec371169106d13d4ba7c3ba79d91
