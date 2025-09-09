@@ -18,14 +18,14 @@ print(filmInception.values()) # dict_values(['Inception', 2010, 8.8, ['Action', 
 
 #4 - Buscar Itens do Dicionario com chave e Valor
 print(filmInception.items()) # dict_items([('title', 'Inception'), ('year', 2010), ('imdbRating', 8.8), ('genre', ['Action', 'Adventure', 'Sci-Fi'])]
-
-#5 - Adicionar um Item no Dicionario)
+ 
+#5 - Adicionar um Item no Dicionario) [] COlCHETES
 filmInception["director"] = "Christopher Nolan" # Adiciona o item no dicionario
 print(filmInception)
 
-#6 - Remover um Item do Dicionario
+#6 - Remover um Item do Dicionario POP
 filmInception.pop("imdbRating") # Remove o item do dicionario
-
-# 7 - Atualizar itens do Dicionario
+ 
+# 7 - Atualizar itens do Dicionario UPDATE
 filmInception.update({"imdbRating": 8.2}) # Atualiza o item do dicionario
 print(filmInception)

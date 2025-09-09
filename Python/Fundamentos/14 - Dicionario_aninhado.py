@@ -15,13 +15,20 @@ filmsDict = {
         "yearLaunch": 2008,
         "imdbRating": 9.0,
         "genre": ["Action", "Crime", "Drama"]
-    }
+    },
 }
 pp = pprint.PrettyPrinter(depth=4)  
 pp.pprint(filmsDict) 
+line = "-" * 50
+print(line)
 
 # 1 - Recuperar um elemento do Dicionario
-print(filmsDict["Inception"]["genre"]) # ['Action', 'Adventure', 'Sci-Fi']
+
+print(filmsDict["Inception"]) # {'yearLaunch': 2010, '
+
+print(filmsDict["The Dark Knight"]["imdbRating"]) # 9.0 
+print(f"O Generos são : {filmsDict["Inception"]["genre"]}") 
+print(line)
 
 # 2 = Adicionar um Item no Dicionario
 filmsDict["The Matrix"] = {
@@ -29,8 +36,16 @@ filmsDict["The Matrix"] = {
     "imdbRating": 8.7,
     "genre": ["Action", "Sci-Fi"]
 }   
+filmsDict["The Dark Knight"]["Personagem"] = "Batman e Coringa"
 filmsDict["Inception"]["Director"] = "Christopher Nolan" # Adiciona o item no dicionario
-print(filmsDict["Inception"])
+pp = pprint.PrettyPrinter(depth=4)
+pp.pprint(filmsDict)
+
+# 3 - Excluir um item do Dicionario
+filmsDict.pop("InterStellar") # Remove o item do dicionario
+pp = pprint.PrettyPrinter(depth=4)
+pp.pprint(filmsDict)
+print(line)
 
 
 """
