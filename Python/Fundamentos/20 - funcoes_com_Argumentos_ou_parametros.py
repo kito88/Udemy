@@ -31,4 +31,4 @@ def rateMovie(movieName, num_Ratings):
         average = 0
     
     print(f"Média de Avaliação do Filme {movieName} é: {average:.2f}")
-rateMovie(filme, 4)
+rateMovie(filme, 0) # chamando a função rateMovie com os parametros do Nome do Filme e mais a quantidade de avaliações do determinado Filme
