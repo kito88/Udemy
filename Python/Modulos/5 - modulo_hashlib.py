@@ -12,7 +12,7 @@ print(hashlib.algorithms_available) #
 print(hashlib.algorithms_guaranteed) # Algoritmos garantidos
 
 # 3 - Utilizando o SHA 256
-algorithm =hashlib.sha256()
+algorithm = hashlib.sha256()
 print(algorithm.digest())
 message = "A Melhor forma de prever o Futuro é Cria-lo".encode() # encode - transforma a string em bytes
 algorithm.update(message)
