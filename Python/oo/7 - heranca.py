@@ -52,23 +52,23 @@ mult_game.technical_sheet()
 
 sing_game = SinglePlayerGame("The Last of Us 2", 2020, 9.5, "Emocionante história de sobrevivência e vingança")
 sing_game.technical_sheet()
-    def __str__(self):
+def __str__(self):
         return f"Game: {self.name}"
 
-    def technical_sheet(self):
-        print("#### Dados do Jogo ####")
-        print(f" Nome do Jogo: {self.name} ")
-        print(f" Ano de Lançamento: {self.yearLaunch}")
-        print(f" Multiplayer: {self.multiplayer} ")
-        print(f"Total de Avaliações é : {self.note}\n")
+def technical_sheet(self):
+    print("#### Dados do Jogo ####")
+    print(f" Nome do Jogo: {self.name} ")
+    print(f" Ano de Lançamento: {self.yearLaunch}")
+    print(f" Multiplayer: {self.multiplayer} ")
+    print(f"Total de Avaliações é : {self.note}\n")
 
 
-    def evaluate (self, note):
-        self.totalEvaluation =+ note
-        self.evaluators =+ 1
+def evaluate (self, note):
+    self.totalEvaluation =+ note
+    self.evaluators =+ 1
 
-    def average(self):
-        print(f"Media do Jogo {self.name} : {self.totalEvaluation / self.evaluators}")
+def average(self):
+    print(f"Media do Jogo {self.name} : {self.totalEvaluation / self.evaluators}")
         
 # Classe Derivada (Subclasse) -Especializada
 class singlePlayerGame(Game):
