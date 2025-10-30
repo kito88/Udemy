@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc versao="4.00"
+    xmlns="http://www.portalfiscal.inf.br/nfe">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe versao="4.00" Id="NFe35210429302348000387550030003369351118144313">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>11814431</cNF>
+                <natOp>VENDA DE MERC ADQ DE TERC</natOp>
+                <mod>55</mod>
+                <serie>3</serie>
+                <nNF>336935</nNF>
+                <dhEmi>2021-04-01T00:00:00-03:00</dhEmi>
+                <dhSaiEnt>2021-04-01T07:30:13-03:00</dhSaiEnt>
+                <tpNF>1</tpNF>
+                <idDest>1</idDest>
+                <cMunFG>3509205</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>3</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <indFinal>1</indFinal>
+                <indPres>9</indPres>
+                <procEmi>0</procEmi>
+                <verProc>NDDigital NFe 4.8.5</verProc>
+            </ide>
+            <emit>
+                <CNPJ>29302348000387</CNPJ>
+                <xNome>GURGELMIX MAQUINAS E FERRAMENTAS S.A.</xNome>
+                <enderEmit>
+                    <xLgr>VIA DE ACESSO NORTE KM 38 (ROD ANHANGUERA)</xLgr>
+                    <nro>0</nro>
+                    <xCpl>GALPAO 5 BLOCO 2</xCpl>
+                    <xBairro>JORDANESIA</xBairro>
+                    <cMun>3509205</cMun>
+                    <xMun>CAJAMAR</xMun>
+                    <UF>SP</UF>
+                    <CEP>07789100</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                    <fone>1621030800</fone>
+                </enderEmit>
+                <IE>241106454112</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>35582087818</CPF>
+                <xNome>FRANCISCO GONCALVES PEREIRA</xNome>
+                <enderDest>
+                    <xLgr>RUA TATSUO KAWANA</xLgr>
+                    <nro>201</nro>
+                    <xCpl>CASA B48</xCpl>
+                    <xBairro>AGUA CHATA</xBairro>
+                    <cMun>3518800</cMun>
+                    <xMun>GUARULHOS</xMun>
+                    <UF>SP</UF>
+                    <CEP>07251195</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                    <fone>11947361523</fone>
+                </enderDest>
+                <indIEDest>9</indIEDest>
+                <email>u1000d100pre@hotmail.com</email>
+            </dest>
+            <det nItem="1">
+                <prod>
+                    <cProd>1509761</cProd>
+                    <cEAN>7898608291134</cEAN>
+                    <xProd>PISTOLA SECADORA TERMICA (127V) 1500W G1935/BR1 GAMMA</xProd>
+                    <NCM>84193900</NCM>
+                    <CFOP>5102</CFOP>
+                    <uCom>UN</uCom>
+                    <qCom>1</qCom>
+                    <vUnCom>111</vUnCom>
+                    <vProd>111.00</vProd>
+                    <cEANTrib>7898608291134</cEANTrib>
+                    <uTrib>UN</uTrib>
+                    <qTrib>1</qTrib>
+                    <vUnTrib>111</vUnTrib>
+                    <vFrete>11.81</vFrete>
+                    <vDesc>11.10</vDesc>
+                    <indTot>1</indTot>
+                    <xPed>8787718</xPed>
+                    <nItemPed>1</nItemPed>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS20>
+                            <orig>2</orig>
+                            <CST>20</CST>
+                            <modBC>3</modBC>
+                            <pRedBC>51.11</pRedBC>
+                            <vBC>54.62</vBC>
+                            <pICMS>18.00</pICMS>
+                            <vICMS>9.83</vICMS>
+                        </ICMS20>
+                    </ICMS>
+                    <IPI>
+                        <cEnq>999</cEnq>
+                        <IPINT>
+                            <CST>53</CST>
+                        </IPINT>
+                    </IPI>
+                    <II>
+                        <vBC>0.00</vBC>
+                        <vDespAdu>0.00</vDespAdu>
+                        <vII>0.00</vII>
+                        <vIOF>0.00</vIOF>
+                    </II>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>111.71</vBC>
+                            <pPIS>1.65</pPIS>
+                            <vPIS>1.84</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>111.71</vBC>
+                            <pCOFINS>7.60</pCOFINS>
+                            <vCOFINS>8.49</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>54.62</vBC>
+                    <vICMS>9.83</vICMS>
+                    <vICMSDeson>0.00</vICMSDeson>
+                    <vFCP>0.00</vFCP>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vFCPST>0.00</vFCPST>
+                    <vFCPSTRet>0.00</vFCPSTRet>
+                    <vProd>111.00</vProd>
+                    <vFrete>11.81</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>11.10</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vIPIDevol>0.00</vIPIDevol>
+                    <vPIS>1.84</vPIS>
+                    <vCOFINS>8.49</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>111.71</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>0</modFrete>
+                <transporta>
+                    <CNPJ>58818022000143</CNPJ>
+                    <xNome>TRANSFOLHA TRANSPORTE DISTRIBUICAO LT</xNome>
+                    <IE>206099687112</IE>
+                    <xEnder>ALAMEDA XINGU 1230</xEnder>
+                    <xMun>BARUERI</xMun>
+                    <UF>SP</UF>
+                </transporta>
+                <vol>
+                    <qVol>1</qVol>
+                    <esp>VOLS</esp>
+                    <pesoL>0.800</pesoL>
+                    <pesoB>0.800</pesoB>
+                </vol>
+            </transp>
+            <cobr>
+                <fat>
+                    <nFat>336935</nFat>
+                    <vOrig>111.71</vOrig>
+                    <vDesc>0.00</vDesc>
+                    <vLiq>111.71</vLiq>
+                </fat>
+            </cobr>
+            <pag>
+                <detPag>
+                    <tPag>03</tPag>
+                    <vPag>111.71</vPag>
+                </detPag>
+            </pag>
+            <infAdic>
+                <infCpl>PEDIDO DO CLIENTE= 8787718 VALOR APROXIMADO DOS TRIBUTOS= 10.77-FONTE= IBPT.(CONF.LEI 12.741/2012)</infCpl>
+                <obsCont xCampo="SiglaERP">
+                    <xTexto>BSELLER</xTexto>
+                </obsCont>
+            </infAdic>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="#NFe35210429302348000387550030003369351118144313">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                    <DigestValue>TLhKh4fuBXKVQ1DiljeGEuzTgJ0=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>qIkZEE7ja6NmlHMFm+Fv8t3rITLYwe/xReaM73qLoPFQ/Czk42i+ZTjVdDEcfiAjIqykfJ/HjYpvTIOKaN5WRglvSaBAhhyKqyV6G+5iReKGNjFgCOf105lbH6A9QbDk96WY9YP0v6PqEsnpe37YUWnOAjDM6DMrh3VwAo1E+XJrhuiQq1PRyHWAr6JKUXisod9uCZpYq9QSebvRs7OUshNh0WW822avj4WR56T06D66E0ELwSSKFUuIhE/nO7J1o3fJ8DSdICHZTTfSEJWCwPdK0FH1rPm0snwWwoBLYpoKsSpzsRAjtUvWbZS1lovZzU20lqRtwzgIQapHtAS/2A==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>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</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="4.00">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>SP_NFE_PL009_V4</verAplic>
+            <chNFe>35210429302348000387550030003369351118144313</chNFe>
+            <dhRecbto>2021-04-01T07:30:25-03:00</dhRecbto>
+            <nProt>135210350344448</nProt>
+            <digVal>TLhKh4fuBXKVQ1DiljeGEuzTgJ0=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
